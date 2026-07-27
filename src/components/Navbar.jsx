@@ -41,7 +41,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-3">
           {/* GitHub */}
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/mohdaafaq"
             target="_blank"
             rel="noopener noreferrer"
             className="w-11 h-11 flex items-center justify-center rounded-full border border-white/10 bg-white/5 text-gray-300 transition-all duration-300 hover:bg-white hover:text-black hover:scale-110"
@@ -51,7 +51,7 @@ export default function Navbar() {
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/aafaq-razvi-958206406"
             target="_blank"
             rel="noopener noreferrer"
             className="w-11 h-11 flex items-center justify-center rounded-full border border-white/10 bg-white/5 text-gray-300 transition-all duration-300 hover:bg-[#0A66C2] hover:text-white hover:scale-110"
@@ -61,7 +61,7 @@ export default function Navbar() {
 
           {/* Email */}
           <a
-            href="mailto:your@email.com"
+            href="mailto:razviaafaq@gmail.com"
             className="w-11 h-11 flex items-center justify-center rounded-full border border-white/10 bg-white/5 text-gray-300 transition-all duration-300 hover:bg-red-500 hover:text-white hover:scale-110"
           >
             <MdEmail size={22} />
@@ -93,7 +93,7 @@ export default function Navbar() {
 
           <div className="flex p-6 justify-center gap-4 mt-6 border-t border-white/10 pt-6">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/mohdaafaq"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 text-white hover:bg-white hover:text-black transition"
@@ -102,7 +102,7 @@ export default function Navbar() {
             </a>
 
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/aafaq-razvi-958206406"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 text-white hover:bg-[#0A66C2] transition"
@@ -111,7 +111,7 @@ export default function Navbar() {
             </a>
 
             <a
-              href="mailto:your@email.com"
+              href="mailto:razviaafaq@gmail.com"
               className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 text-white hover:bg-red-500 transition"
             >
               <MdEmail size={20} />

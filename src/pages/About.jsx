@@ -48,7 +48,7 @@ export default function About() {
               <img
                 src={profile}
                 alt="Profile"
-                className="relative w-[380px] rounded-3xl border border-white/10"
+                className="relative w-95 rounded-3xl border border-white/10"
               />
 
             </div>
