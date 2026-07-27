@@ -3,7 +3,9 @@ import { MdEmail } from "react-icons/md";
 import heroImage from "../assets/bg.png";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 export default function Hero() {
+  const navigate = useNavigate();
   return (
     <section className="relative min-h-screen bg-black overflow-hidden py-6">
       
@@ -70,7 +72,9 @@ export default function Hero() {
             }}
             className="mt-10 flex flex-wrap justify-center lg:justify-start gap-4"
           >
-            <button className="px-8 py-4 rounded-full bg-cyan-400 text-black font-semibold hover:scale-105 transition">
+            <button className="px-8 py-4 rounded-full bg-cyan-400 text-black font-semibold hover:scale-105 transition"
+            onClick={()=>{navigate('/projects')}}
+            >
               View Projects
             </button>
 

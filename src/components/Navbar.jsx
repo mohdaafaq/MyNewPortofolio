@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { Link, useNavigate } from "react-router-dom";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
@@ -17,22 +18,22 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 w-full z-50">
       <nav className="max-w-7xl mx-auto mt-4 px-6 py-4 flex items-center justify-between rounded-full border border-white/10 bg-white/5 backdrop-blur-xl">
         {/* Logo */}
-        <a href="#" className="text-2xl font-bold text-white tracking-wide">
+        <Link to="/" className="text-2xl font-bold text-white tracking-wide">
           Aafaq<span className="text-cyan-400">.</span>
-        </a>
+        </Link>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <li key={link.name}>
-              <a
-                href={link.href}
+              <Link
+                to={link.href}
                 className="relative text-gray-300 hover:text-white transition duration-300 group"
               >
                 {link.name}
 
                 <span className="absolute left-0 -bottom-2 h-[2px] w-0 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

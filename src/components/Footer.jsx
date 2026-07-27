@@ -33,7 +33,7 @@ export default function Footer() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl font-bold text-white">
-              Mohammed<span className="text-cyan-400">.</span>
+              Aafaq<span className="text-cyan-400">.</span>
             </h2>
 
             <p className="text-gray-400 mt-5 leading-7">
@@ -85,7 +85,7 @@ export default function Footer() {
               <div className="flex gap-3 items-center">
                 <MdEmail className="text-cyan-400 text-xl" />
                 <span className="text-gray-400">
-                  your@email.com
+                  razviaafaq@gmail.com
                 </span>
               </div>
 
@@ -112,7 +112,7 @@ export default function Footer() {
             <div className="flex gap-4">
 
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/mohdaafaq"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-white hover:bg-cyan-500 hover:scale-110 transition"
@@ -130,7 +130,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://instagram.com/yourusername"
+                href="https://instagram.com/._aafaq._"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-white hover:bg-pink-500 hover:scale-110 transition"
